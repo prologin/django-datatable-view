@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(name='django-datatable-view',
-      version='0.9.0-beta.5',
+      version='0.9.0-prologin',
       description='This package is used in conjunction with the jQuery plugin '
                   '(http://http://datatables.net/), and supports state-saving detection'
                   ' with (http://datatables.net/plug-ins/api).  The package consists of '
@@ -28,5 +28,5 @@ setup(name='django-datatable-view',
       packages=find_packages(exclude=['tests', 'tests.*']),
       package_data={'datatableview': ['static/js/*.js', 'templates/datatableview/*.html']},
       include_package_data=True,
-      install_requires=['django>=1.2', 'python-dateutil>=2.1'],
+      install_requires=['django>=1.11', 'python-dateutil>=2.1'],
 )

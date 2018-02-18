@@ -1,2 +1,2 @@
-django>=1.4
+Django>=1.19
 python-dateutil>=2.1
